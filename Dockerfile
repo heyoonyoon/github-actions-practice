@@ -12,7 +12,4 @@ WORKDIR ./myapp
 CMD gunicorn main:app --bind 0.0.0.0:8001
 
 EXPOSE 8001
-vim requirements.txt
-flask==2.3.1
-gunicorn==20.1.0
 
